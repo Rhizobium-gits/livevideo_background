@@ -132,7 +132,7 @@ MIT License
 
 ## 作成者
 
-Create your own awesome project!
+Tsubasato
 
 ---
 

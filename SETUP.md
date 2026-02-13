@@ -1,11 +1,12 @@
 # セットアップガイド
 
 ## クイックスタート
+### ターミナルで1-3を一個ずつ実行する．
 
 ```bash
 # 1. クローン
-git clone https://github.com/Rhizobium-gits/live-background
-cd yt-live-wallpaper
+git clone https://github.com/Rhizobium-gits/livevideo_background
+cd livevideo_background
 
 # 2. update_wallpaper.sh を編集
 # YOUR_VIDEO_ID_HERE を実際のYouTube URLに置き換え
@@ -15,10 +16,10 @@ nano update_wallpaper.sh
 chmod +x install.sh
 ./install.sh
 
-# 完了！5分ごとに壁紙が更新されます
+# これで設定完了
 ```
 
-## よくある設定
+## 設定に関して
 
 ### YouTube URLの探し方
 

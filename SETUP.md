@@ -4,7 +4,7 @@
 
 ```bash
 # 1. クローン
-git clone https://github.com/yourname/yt-live-wallpaper.git
+git clone https://github.com/Rhizobium-gits/live-background
 cd yt-live-wallpaper
 
 # 2. update_wallpaper.sh を編集

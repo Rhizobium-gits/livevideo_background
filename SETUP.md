@@ -1,7 +1,7 @@
 # セットアップガイド
 
 ## クイックスタート
-### ターミナルで1-3を一個ずつ実行する．
+### ターミナルで1-4を一個ずつ実行する．
 
 ```bash
 # 1. クローン
@@ -9,10 +9,14 @@ git clone https://github.com/Rhizobium-gits/livevideo_background
 cd livevideo_background
 
 # 2. update_wallpaper.sh を編集
-# YOUR_VIDEO_ID_HERE を実際のYouTube URLに置き換え
+# YOUR_VIDEO_ID_HERE を実際のYouTube URLに置き換える
 nano update_wallpaper.sh
 
-# 3. インストール実行
+# 3. com.example.ytwallpaper.plist を編集
+# USERNAMEなどのパス名を自分のパスに置き換える
+nano com.example.ytwallpaper.plist
+
+# 4. インストール実行
 chmod +x install.sh
 ./install.sh
 
